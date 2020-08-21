@@ -1,0 +1,27 @@
+.Navbar{
+    background-color: aqua;
+    margin: 0px;
+    display: flex;
+}
+.NavButton{
+    width :24vw;
+    margin-top: .5%;
+    margin-left: 1%;
+    margin-bottom: .5%;
+    margin-right: 1%;
+    padding: 1em;
+    color:white;
+    background-color: transparent;
+    border:2px solid grey;
+    font-size: 1.1em;
+    border-radius: 2px;
+    outline: none!important;
+}
+
+.NavButton:hover{
+    cursor: pointer;
+    border: 2px solid black;
+}
+.NavButton:activate{
+    border:none;
+}
